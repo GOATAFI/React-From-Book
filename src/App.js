@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Counter from "./Counter";
 import CountUp from "./CountUp";
 import Dialog from "./Dialog";
 import Farms from "./Farms";
@@ -14,6 +15,7 @@ function App() {
       <CountUp />
       <Farms />
       <ToDoFuncByMafi />
+      <Counter />
     </div>
   );
 }
