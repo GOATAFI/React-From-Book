@@ -4,6 +4,7 @@ import CountUp from "./CountUp";
 import Dialog from "./Dialog";
 import Farms from "./Farms";
 import ImmediateInvoke from "./ImmediateInvoke";
+import ToDoFuncByMafi from "./ToDoFuncByMafi";
 function App() {
   const [personName, setPersonName] = React.useState("");
   return (
@@ -12,6 +13,7 @@ function App() {
       <Dialog />
       <CountUp />
       <Farms />
+      <ToDoFuncByMafi />
     </div>
   );
 }
